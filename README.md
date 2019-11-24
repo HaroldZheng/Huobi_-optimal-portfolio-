@@ -25,5 +25,5 @@ $ python data.py (get BTC,XRP,LTC... .csv)
  
 #### optimal portfolio
 ```
-$ python Main.py 
+$ python main.py 
 ```
