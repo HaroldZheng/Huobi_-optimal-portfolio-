@@ -75,6 +75,7 @@ def display_simulated_ef_with_random(mean_returns, cov_matrix, num_portfolios, r
     plt.xlabel('annualised volatility')
     plt.ylabel('annualised returns')
     plt.legend(labelspacing=0.8)
+    plt.savefig('Portfolio Optimization.png')
 
 returns = df.pct_change()
 mean_returns = returns.mean()
